@@ -1,0 +1,250 @@
+previous sentence: There are 58 students trying out for the school's trivia teams.
+previous answer: container ( trivia team , 58 , student , None , None )
+sentence: If 28 of them didn't get picked for the team and the rest were put into 5 groups,
+answer: transfer ( None , trivia team , 28 , student , None , None ) container ( trivia team , 5 , group , None , None ) rate ( trivia team , None , student , None , None , group , None , None )
+
+previous sentence: 
+previous answer: 
+sentence: Emily was helping her mom pick apples from the tree in their front yard.
+answer: 
+
+previous sentence: Robin bought 11 sodas for her and her friends.
+previous answer: container ( robin , 11 , soda , None , None )
+sentence: If they only drank 3 of them,
+answer: transfer ( None , robin , 3 , soda , None , None )
+
+previous sentence: 
+previous answer: 
+sentence: Todd has some gum.
+answer: container ( todd , None , gum , None , piece )
+
+previous sentence: Oliver had 33 dollars in January.
+previous answer: container ( oliver , 33 , money , January , dollar )
+sentence: By March he had spent 4 dollars.
+answer: transfer ( None , oliver , 4 , money , None , dollar )
+
+previous sentence: 
+previous answer: 
+sentence: After the party, Kevin estimated that the total money they spent on food, drinks, and utensils sums up to $560.00.
+answer: container ( kevin , 560.0 , money , None , $ )
+
+previous sentence: Isabel had 16 bottles of water.
+previous answer: container ( isabel , 16 , water , None , bottle )
+sentence: After a week she had 7 left.
+answer: container ( isabel , 7 , water , None , bottle ) transfer ( None , isabel , None , water , None , bottle )
+
+previous sentence: She bought 6 more fish.
+previous answer: transfer ( sandy , None , 6 , fish , None , None )
+sentence: How many pet fish does Sandy have now?
+answer: container ( sandy , None , fish , None , None )
+
+previous sentence: Luke was organizing his baseball cards in a binder with 3 on each page.
+previous answer: rate ( luke , 3 , baseball card , None , None , page , None , None )
+sentence: If he had 3 new cards and 9 old cards to put in the binder,
+answer: container ( luke , 3 , card , new , None ) container ( luke , 9 , card , old , None ) part ( luke , basketball card , None , None , luke , card , new , None , luke , card , old , None )
+
+previous sentence: 
+previous answer: 
+sentence: Matthew and Billie went apple picking.
+answer: 
+
+previous sentence: She started with 52 seeds and planted 40 of them in the big garden and in each of her small gardens put 2 seeds each.
+previous answer: container ( bianca , 52 , seed , None , None ) container ( bianca , 40 , seed , big garden , None ) container ( bianca , None , seed , small garden , None ) part ( bianca , seed , None , None , bianca , seed , big garden , None , bianca , seed , small garden , None ) container ( bianca , None , garden , small , None ) rate ( bianca , 2 , seed , None , None , garden , small , None )
+sentence: How many small gardens did Bianca have?
+answer: container ( bianca , None , garden , small , None )
+
+previous sentence: There are 4 crayons in each box.
+previous answer: rate ( world , 4 , crayon , None , None , box , None , None )
+sentence: How many crayons are in 3 boxes?
+answer: container ( world , 3 , box , None , None ) container ( world , None , crayon , None , None )
+
+previous sentence: There are 40 boys and some girls on the playground.
+previous answer: container ( playground , 40 , boy , None , None ) container ( playground , None , girl , None , None )
+sentence: There are 117 children altogether.
+answer: container ( playground , 117 , children , None , None ) part ( playground , children , None , None , playground , boy , None , None , playground , girl , None , None )
+
+previous sentence: In the first round she scored 16 points.
+previous answer: container ( emily , 16 , point , first round , None )
+sentence: In the second round she scored 33 points.
+answer: container ( emily , 33 , point , second round , None )
+
+previous sentence: 
+previous answer: 
+sentence: A vet was weighing 3 cats.
+answer: container ( vet , 3 , cat , None , None )
+
+previous sentence: 
+previous answer: 
+sentence: Jerry had 8 action figures on a shelf in his room.
+answer: container ( jerry , 8 , action figure , None , None )
+
+previous sentence: 
+previous answer: 
+sentence: At the beach, Janet and her sister both built sandcastles and then measured their heights.
+answer: 
+
+previous sentence: On Friday, 1,250 people visited the zoo.
+previous answer: container ( zoo , 1250 , people , Friday , None )
+sentence: 3 times as many people visited on Saturday than on Friday.
+answer: explicit ( zoo , zoo , 3 , people , Saturday , None , people , Friday , None )
+
+previous sentence: If they each got the same amount.
+previous answer: rate ( restaurant , None , chicken wing , None , None , friend , None , None )
+sentence: how many would each person get?
+answer: rate ( restaurant , None , chicken wing , None , None , friend , None , None )
+
+previous sentence: The other had 39.
+previous answer: container ( rachel , 39 , picture , None , None )
+sentence: After one week she had already colored 4 of the pictures.
+answer: container ( rachel , None , picture , None , None ) part ( rachel , picture , None , None , rachel , picture , None , None , rachel , picture , None , None ) container ( rachel , None , picture , None , None ) transfer ( None , rachel , 4 , picture , None , None )
+
+previous sentence: 
+previous answer: 
+sentence: Eugene has 51 pencils.
+answer: container ( eugene , 51 , pencil , None , None )
+
+previous sentence: Now he has $11.
+previous answer: container ( paul , 11 , money , None , $ )
+sentence: What's the difference between the number of dollars that he spent and he has now?
+answer: container ( paul , 75 , money , None , $ ) difference ( paul , paul , None , money , None , $ , money , None , $ )
+
+previous sentence: 
+previous answer: 
+sentence: Eugene has 51 pencils.
+answer: container ( eugene , 51 , pencil , None , None )
+
+previous sentence: Jerry had $18.
+previous answer: container ( jerry , 18 , money , None , $ )
+sentence: He spent $6 on new video games.
+answer: transfer ( None , jerry , 6 , money , video games , $ )
+
+previous sentence: Frannie jumped 53 times without missing.
+previous answer: container ( frannie , 53 , jump , rope , None )
+sentence: She jumped 18 fewer times than Meg.
+answer: difference ( meg , frannie , 18 , jump , rope , None , jump , rope , None )
+
+previous sentence: 
+previous answer: 
+sentence: Angela won a contest.
+answer: 
+
+previous sentence: There are 336 students in a school.
+previous answer: container ( school , 336 , student , None , None )
+sentence: If the school has 7 grades and each grade had the same number of students,
+answer: container ( school , 7 , grade , None , None ) rate ( school , None , student , None , None , grade , None , None )
+
+previous sentence: Belle collected 97 animal stickers.
+previous answer: container ( belle , 97 , sticker , animal , None )
+sentence: Carolyn collected 18 fewer stickers than Belle.
+answer: difference ( belle , carolyn , 18 , sticker , animal , None , sticker , animal , None )
+
+previous sentence: 
+previous answer: 
+sentence: A florist had 5 roses.
+answer: container ( florist , 5 , roses , None , None )
+
+previous sentence: He gave his little brother 8 books.
+previous answer: transfer ( None , evan , 8 , book , None , None )
+sentence: Now Evan has 60 books in his collection.
+answer: container ( evan , 60 , book , None , None )
+
+previous sentence: 
+previous answer: 
+sentence: During a sale, a shoe store sold 2 pairs of sneakers, 4 pairs of sandals and 11 pairs of boots.
+answer: container ( shoe store , 2 , sneaker , None , pair ) container ( shoe store , 4 , sandal , None , pair ) container ( shoe store , 11 , boot , None , pair )
+
+previous sentence: Her friend gave her 25 more pieces.
+previous answer: transfer ( isabel , None , 25 , candy , None , None )
+sentence: How many pieces of candy did Isabel have total?
+answer: container ( isabel , None , candy , None , None )
+
+previous sentence: 
+previous answer: 
+sentence: There were 9 kinds of sandwiches on the menu.
+answer: container ( menu , 9 , sandwich , None , None )
+
+previous sentence: 
+previous answer: 
+sentence: There are 7 dogwood trees currently in the park.
+answer: container ( park , 7 , tree , dogwood , None )
+
+previous sentence: 
+previous answer: 
+sentence: Mike joined his school's band.
+answer: 
+
+previous sentence: 
+previous answer: 
+sentence: My car gets 20 miles per gallon of gas.
+answer: container ( car , None , distance , None , mile ) container ( car , None , gas , None , gallon )
+
+previous sentence: If we have 4 watermelons,
+previous answer: container ( world , 4 , watermelon , None , None )
+sentence: how many seeds should there be when all seeds are taken out of the watermelons?
+answer: container ( world , None , seed , None , None )
+
+previous sentence: The third graders are having a fair.
+previous answer: 
+sentence: They have 90 tickets to sell.
+answer: container ( fair , 90 , ticket , sell , None )
+
+previous sentence: 
+previous answer: 
+sentence: 5 red peaches and 14 green peaches are in the basket.
+answer: container ( bakset , 5 , peach , red , None ) container ( bakset , 14 , peach , green , None )
+
+previous sentence: Tom has 38 books.
+previous answer: container ( tom , 38 , book , None , None )
+sentence: How many books do they have together?
+answer: container ( they , None , book , None , None ) part ( they , book , None , None , joan , book , None , None , tom , book , None , None )
+
+previous sentence: Connie had some marbles.
+previous answer: 
+sentence: She gave 183 to Juan.
+answer: transfer ( juan , connie , 183 , marble , None , None )
+
+previous sentence: There are 4 dozen calories in a candy bar.
+previous answer: container ( candy bar , 4 , calories , None , dozen )
+sentence: How many calories are there in 42 candy bars?
+answer: container ( world , 42 , candy bar , None , None ) rate ( world , 4 , calories , None , dozen , candy bar , None , None ) rate ( world , 12 , calories , None , None , calories , None , dozen ) container ( world , None , calories , None , None )
+
+previous sentence: Ted is 39 inches tall.
+previous answer: container ( ted , 39 , height , None , inch )
+sentence: What's the difference between Ted's height and Fred's height?
+answer: difference ( fred , ted , None , height , None , inch , height , None , inch )
+
+previous sentence: 4 cards more are added.
+previous answer: transfer ( world , None , 4 , card , None , None )
+sentence: How many are there total?
+answer: container ( world , None , card , None , None )
+
+previous sentence: Bonnie has 4 Skittles.
+previous answer: container ( bonnie , 4 , skittle , None , None )
+sentence: He loses 9.
+answer: transfer ( None , brandon , 9 , skittle , None , None )
+
+previous sentence: Molly had 14 candles on her birthday cake.
+previous answer: container ( molly , 14 , candle , birthday cake , None )
+sentence: She grew older and got 6 more on her birthday cake.
+answer: transfer ( molly , None , 6 , candle , birthday cake , None )
+
+previous sentence: His mom gave him 34 more balloons for his birthday.
+previous answer: container ( tommy , 60 , balloon , None , None ) transfer ( tommy , None , 34 , balloon , birthday , None )
+sentence: Then, Tommy had 60 balloons.
+answer: 
+
+previous sentence: Each tray held 9 ice cubes.
+previous answer: rate ( billy , 9 , ice cube , None , None , tray , None , None )
+sentence: If he had 8 trays,
+answer: container ( billy , 8 , tray , None , None )
+
+previous sentence: 
+previous answer: 
+sentence: Lillian collects 88 candies.
+answer: container ( lillian , 88 , candy , None , None )
+
+previous sentence: If he spent 5 tickets buying a water gun,
+previous answer: transfer ( None , oliver , 5 , ticket , None , None )
+sentence: how many tickets did he still have?
+answer: container ( oliver , None , ticket , water gun , None )
+

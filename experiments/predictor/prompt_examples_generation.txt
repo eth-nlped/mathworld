@@ -1,0 +1,89 @@
+logical form: nan; container ( they , 30 , pike , None , None ) container ( they , 40 , sturgeon , None , None ) container ( they , 75 , herring , None , None ); container ( they , None , fish , None , None ) part ( they , fish , None , None , they , pike , None , None , they , sturgeon , None , None , they , herring , None , None )
+math story problem: The following week, they decided to go to Lake Huron and Lake Michigan.; During their stay there, they caught a total of 30 pikes, 40 sturgeons and 75 herrings.; How many fishes did they catch from the 2 lakes?
+
+logical form: nan; rate ( ellen , 15 , money , None , dollar , chair , None , None ); container ( ellen , 12 , chair , None , None ) container ( ellen , None , money , None , dollar )
+math story problem: Ellen went to a garage sale to buy chairs.; Each chair is 15 dollars.; How much did Ellen spend for the 12 chairs she bought?
+
+logical form: nan; container ( he , 6 , rope , None , feet ) container ( he , None , rope , None , feet ) explicit ( he , he , 5 , rope , None , feet , rope , None , feet ) container ( he , None , rope , None , feet ) part ( he , rope , None , feet , he , rope , None , feet , he , rope , None , feet ); container ( he , None , rope , None , feet )
+math story problem: Another material that he needs is rope.; If he already has 6 feet of rope and he needs additional ropes having 5 times the length of what he already have,; how long should be the additional rope?
+
+logical form: nan; transfer ( None , evan , 14 , book , None , None ); transfer ( None , evan , 8 , book , None , None ); container ( evan , 60 , book , None , None ); container ( evan , None , book , None , None )
+math story problem: Evan has a large collection of books.; He gave his best friend 14 books.; He gave his little brother 8 books.; Now Evan has 60 books in his collection.; How many books did he have at first?
+
+logical form: container ( sam , 13 , book , adventure , None ) container ( sam , 17 , book , mystery , None ); container ( sam , None , book , None , None ) part ( sam , book , None , None , sam , book , adventure , None , sam , book , mystery , None ) container ( sam , None , book , None , None ) transfer ( None , sam , 15 , book , used , None ); container ( sam , None , book , None , None )
+math story problem: At the schools book fair Sam bought 13 adventure books and 17 mystery books.; If 15 of the books were used,; how many new books did he buy?
+
+logical form: nan; container ( mandy , 2/3 , cinnamon , None , tablespoon ) container ( mandy , 0.5 , nutmeg , None , tablespoon ); difference ( mandy , mandy , None , cinnamon , None , tablespoon , nutmeg , None , tablespoon )
+math story problem: Mandy made an apple pie.; She used 2/3 tablespoon of cinnamon and 0.5 tablespoon of nutmeg.; How much more cinnamon than nutmeg did Mandy use?
+
+logical form: container ( roger , 25 , book , None , None ); transfer ( None , roger , 21 , book , None , None ) transfer ( roger , None , 30 , book , None , None ); container ( roger , None , book , None , None )
+math story problem: Roger had 25 books.; If he sold 21 of them and used the money he earned to buy 30 new books,; how many books would Roger have?
+
+logical form: difference ( marcie , brian , 0 , orange , None , None , orange , None , None ); container ( marcie , 12 , orange , None , None ); container ( brian , None , orange , None , None )
+math story problem: Brian has 0 fewer oranges than Marcie.; Marcie has 12 oranges.; How many oranges does Brian have?
+
+logical form: container ( spaceship , 0 , distance , Earth , light-year ) transfer ( spaceship , None , 0.5 , distance , None , light-year ) transfer ( spaceship , None , 0.1 , distance , None , light-year ); transfer ( spaceship , None , 0.1 , distance , None , light-year ); container ( spaceship , None , distance , Earth , light-year )
+math story problem: A spaceship traveled 0.5 light-year from Earth to Planet X and 0.1 light-year from Planet X to Planet Y..; Then it traveled 0.1 light-year from Planet Y back to Earth.; How many light-years did the spaceship travel in all?
+
+logical form: container ( car , None , distance , None , mile ) container ( car , None , gas , None , gallon ); container ( car , 100 , distance , None , mile ) rate ( car , 20 , distance , None , mile , gas , None , gallon ); container ( car , None , gas , None , gallon )
+math story problem: My car gets 20 miles per gallon of gas.; If Grandma ’ s house is 100 miles away,; how many gallons of gas would it take to get to her house?
+
+logical form: container ( harold , 53 , marble , None , None ); transfer ( harold , steve , 16 , marble , None , None ); container ( harold , None , marble , None , None )
+math story problem: Harold has 53 marbles.; He gets 16 more from Steve.; How many marbles does Harold have in all?
+
+logical form: container ( jenny , 24 , box , Trefoils , None ); rate ( jenny , 8 , box , None , None , case , None , None ) container ( jenny , None , case , Trefoils , None )
+math story problem: Jenny sold 24 boxes of Trefoils.; How many cases of 8 boxes, plus extra boxes does Jenny need to deliver?
+
+logical form: rate ( chloe , 7 , cookie , None , None , bag , None , None ); container ( chloe , 34 , cookie , chocolate chip , None ) container ( chloe , 29 , cookie , oatmeal , None ) part ( chloe , cookie , None , None , chloe , cookie , chocolate chip , None , chloe , cookie , oatmeal , None ); container ( chloe , None , bag , None , None )
+math story problem: Chloe was making baggies of cookies with 7 cookies in each bag.; If she had 34 chocolate chip cookies and 29 oatmeal cookies,; how many baggies could she make?
+
+logical form: container ( building , 11 , window , None , None ); transfer ( None , building , 4 , window , None , None ); container ( building , None , time , None , hour ); rate ( building , 8 , time , None , hour , window , None , None ) container ( building , None , time , None , hour )
+math story problem: A new building needed 11 windows.; The builder had already installed 4 of them.; If it takes 8 hours to install each window,; how long will it take him to install the rest?
+
+logical form: container ( helen , 9 , orange , None , None ); transfer ( helen , ann , 29 , orange , None , None ); container ( helen , None , orange , None , None )
+math story problem: Helen starts with 9 oranges.; She gets 29 more from Ann.; How many oranges does Helen end with?
+
+logical form: container ( dennis , 4028 , pencil , None , None ); container ( dennis , 53 , box , None , None ); rate ( dennis , None , pencil , None , None , box , None , None )
+math story problem: Dennis has 4028 pencils stored in boxes.; If the are 53 boxes,; how many pencils must go in each box?
+
+logical form: container ( mrs. wong , 30 , valentine , None , None ); transfer ( None , mrs. wong , 8 , valentine , None , None ); container ( mrs. wong , None , valentine , None , None )
+math story problem: Mrs. Wong had 30 Valentines.; She gave 8 Valentines to her children.; How many does she have left?
+
+logical form: container ( victor , None , money , None , dollar ); container ( victor , 6 , deck , None , None ) container ( friend , 2 , deck , None , None ) container ( victor and friend , None , deck , None , None ) part ( victor and friend , deck , None , None , victor , deck , None , None , friend , deck , None , None ) rate ( victor , 8 , money , None , dollar , deck , None , None ) container ( victor , None , money , None , dollar )
+math story problem: Victor and his friend were buying trick decks from the magic shop for 8 dollars each.; How much did they spend if Victor bought 6 decks and his friend bought 2 decks?
+
+logical form: container ( store , 50 , orange , bin , None ); transfer ( None , store , 40 , orange , old , None ) transfer ( store , None , 24 , orange , new , None ); container ( store , None , orange , bin , None )
+math story problem: A store had 50 oranges in a bin.; If they threw away 40 of the old ones and put 24 new ones in the bin.; how many would be in the bin?
+
+logical form: container ( melanie , 139 , turnip , None , None ); container ( benny , 113 , turnip , None , None ); container ( they , None , turnip , None , None ) part ( they , turnip , None , None , melanie , turnip , None , None , benny , turnip , None , None )
+math story problem: Melanie grew 139 turnips.; Benny grew 113 turnips.; How many turnips did they grow in all?
+
+logical form: container ( lori , 30 , marble , None , None ); container ( lori , 5 , friend , None , None ); rate ( lori , None , marble , None , None , friend , None , None )
+math story problem: Lori has 30 marbles.; If she shares them among 5 friends,; how many marbles does each friend get?
+
+logical form: container ( olivia , 16 , paper , None , piece ); container ( edward , 3 , paper , None , piece ); container ( they , None , paper , None , piece ) part ( they , paper , None , piece , olivia , paper , None , piece , edward , paper , None , piece )
+math story problem: Olivia picked up 16 pieces of paper from the floor.; If Edward picked up 3 pieces,; how many did they pick up total?
+
+logical form: container ( keith , 5530 , marble , None , None ) container ( keith , 3 , pencil , None , None ); container ( keith , 79 , friend , None , None ) rate ( keith , None , marble , None , None , friend , None , None ); rate ( keith , None , marble , None , None , friend , None , None )
+math story problem: Keith has 5530 marbles and 3 pencils.; If he shares the marbles among 79 friends,; how many marbles does each friend get?
+
+logical form: container ( waiter , 62 , customer , section , None ); transfer ( None , waiter , 17 , customer , None , None ) rate ( waiter , 9 , customer , None , None , table , None , None ); container ( waiter , None , table , None , None )
+math story problem: A waiter had sixty-two customers in his section.; If seventeen of them left and the rest of his tables had nine people at each table,; how many tables did he have?
+
+logical form: container ( molly , 14 , candle , birthday cake , None ); transfer ( molly , None , 6 , candle , birthday cake , None ); container ( molly , None , candle , birthday cake , None )
+math story problem: Molly had 14 candles on her birthday cake.; She grew older and got 6 more on her birthday cake.; How old is Molly now?
+
+logical form: container ( fence , 3 , owl , None , None ); transfer ( fence , None , 2 , owl , None , None ); container ( fence , None , owl , None , None )
+math story problem: 3 owls were sitting on the fence.; 2 more owls joined them.; How many owls are on the fence now?
+
+logical form: container ( furniture store , 15 , chair , None , None ); container ( furniture store , 3 , chair , None , None ) transfer ( None , furniture store , None , chair , None , None ); transfer ( None , furniture store , None , chair , None , None )
+math story problem: A furniture store had 15 chairs.; After selling some, there was 3 left.; How many chairs did they sell?
+
+logical form: container ( waiter , 33 , customer , None , None ); transfer ( None , waiter , 31 , customer , None , None ) transfer ( waiter , None , 26 , customer , None , None ); container ( waiter , None , customer , None , None )
+math story problem: A waiter had 33 customers to wait on.; If 31 customers left and he got another 26 customers,; how many customers would he have?
+
+logical form: container ( maria , 19 , cupcake , None , None ); transfer ( None , maria , 5 , cupcake , None , None ) transfer ( maria , None , 10 , cupcake , None , None ); container ( maria , None , cupcake , None , None )
+math story problem: For the school bake sale Maria made 19 cupcakes.; If she sold 5 of them and then made 10 more,; how many cupcakes would she have?
+
+logical form: container ( tree limb , 2 , toucan , None , None ) container ( tree limb , None , toucan , None , None ); transfer ( tree limb , None , 1 , toucan , None , None ); container ( tree limb , None , toucan , None , None )
+math story problem: 2 toucans are sitting on a tree limb.; 1 more toucan joins them.; How many toucans in all?
