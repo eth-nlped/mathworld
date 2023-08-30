@@ -14,14 +14,17 @@ Start by installing all packages:
 ## Citation
 Please cite as:
 ```bibtex
-@inproceedings{opedal-et-al-2023,
-  author =      {Andreas Opedal and Niklas Stoehr and Abulhair Saparov and Mrinmaya Sachan},
-  title =       {World Models for Math Story Problems},
-  booktitle =   {Findings of the Association for Computational Linguistics: ACL 2023},
-  year =        {2023},
-  month =       jul,
-  address = {Toronto, Canada},
-  url = {https://arxiv.org/pdf/2306.04347.pdf},
+@inproceedings{opedal-etal-2023-world,
+    title = "World Models for Math Story Problems",
+    author = "Opedal, Andreas  and Stoehr, Niklas  and Saparov, Abulhair  and Sachan, Mrinmaya",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.579",
+    doi = "10.18653/v1/2023.findings-acl.579",
+    pages = "9088--9115",
 }
 ```
 
